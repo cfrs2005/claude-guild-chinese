@@ -16,9 +16,9 @@ plugins:
 # Just the Docs 特定配置
 search:
   enabled: true
-  placeholder: "搜索文档..."
+  placeholder: "搜索 Claude Code 教程..."
   # 搜索结果预览
-  previews: 5
+  previews: 8
   # 搜索结果显示范围
   scope:
     path: "_posts"
