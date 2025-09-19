@@ -1,3 +1,8 @@
+---
+title: 课程指南
+nav_order: 7
+---
+
 # Claude Code 高级开发指南 - 中文版
 
 > 📚 **完整的 Claude Code 学习资源** | 基于 [Cranot/claude-code-guide](https://github.com/Cranot/claude-code-guide) 翻译

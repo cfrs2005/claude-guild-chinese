@@ -4,8 +4,10 @@
 [![GitHub forks](https://img.shields.io/github/forks/cfrs2005/claude-guild-chinese)](https://github.com/cfrs2005/claude-guild-chinese/network)
 [![GitHub issues](https://img.shields.io/github/issues/cfrs2005/claude-guild-chinese)](https://github.com/cfrs2005/claude-guild-chinese/issues)
 [![License](https://img.shields.io/github/license/cfrs2005/claude-guild-chinese)](LICENSE)
+[![Website](https://img.shields.io/badge/Website-claude--code.80aj.com-blue)](https://claude-code.80aj.com)
 
 > 🚀 **最全面的 Claude Code 中文学习指南** | 深挖未公开功能，提升开发效率 60-80%
+> **在线文档**：[https://claude-code.80aj.com](https://claude-code.80aj.com)
 
 ## 💫 感谢赞助
 
