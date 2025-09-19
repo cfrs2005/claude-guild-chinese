@@ -13,10 +13,16 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# 搜索配置
+# Just the Docs 特定配置
 search:
   enabled: true
   placeholder: "搜索文档..."
+  # 搜索结果预览
+  previews: 5
+  # 搜索结果显示范围
+  scope:
+    path: "_posts"
+    type: "posts"
 
 # 导航配置
 nav_sorting: case_sensitive
@@ -24,6 +30,36 @@ heading_anchors: true
 
 # 颜色主题
 color_scheme: light
+
+# 侧边栏配置
+sidebar:
+  sticky: true
+  level_depth: 2
+
+# 呼出链接
+callouts:
+  note:
+    title: Note
+    color: blue
+  warning:
+    title: Warning
+    color: yellow
+  important:
+    title: Important
+    color: red
+
+# 代码高亮
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 # Aux links
 aux_links:
