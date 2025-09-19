@@ -1,0 +1,27 @@
+# IDE and Editor files
+.cursor*
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Playwright MCP
+.playwright-mcp/
+
+# Claude Code
+CLAUDE.md
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+.specstory/
+node_modules/
+dist/
+build/
