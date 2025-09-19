@@ -1,6 +1,7 @@
 ---
-title: 课程指南
-nav_order: 7
+title: 新手入门
+description: 完整的学习路径和方法指南
+nav_order: 2
 ---
 
 # Claude Code 高级开发指南 - 中文版

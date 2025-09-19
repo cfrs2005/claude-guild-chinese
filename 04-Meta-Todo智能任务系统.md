@@ -1,6 +1,6 @@
 ---
 title: 第四章 Meta-Todo智能任务系统
-nav_order: 4
+nav_order: 6
 ---
 
 # Claude Code Meta-Todo智能任务系统

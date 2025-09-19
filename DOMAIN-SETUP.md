@@ -1,3 +1,9 @@
+---
+title: 自定义域名配置
+description: GitHub Pages 域名配置指南
+nav_order: 9
+---
+
 # 自定义域名配置
 
 要将您的域名指向 GitHub Pages，按以下步骤操作：
