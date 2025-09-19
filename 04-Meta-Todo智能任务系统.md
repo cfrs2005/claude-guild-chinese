@@ -1,6 +1,7 @@
 ---
-title: 第四章 Meta-Todo智能任务系统
-nav_order: 6
+title: 第四章 智能任务
+description: Meta-Todo系统、任务编排和项目管理的高级应用
+nav_order: 5
 ---
 
 # Claude Code Meta-Todo智能任务系统

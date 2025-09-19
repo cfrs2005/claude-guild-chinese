@@ -1,7 +1,7 @@
 ---
 title: 自定义域名配置
 description: GitHub Pages 域名配置指南
-nav_order: 9
+nav_exclude: true
 ---
 
 # 自定义域名配置
