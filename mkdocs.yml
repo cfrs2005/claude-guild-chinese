@@ -1,0 +1,112 @@
+site_name: Claude Code 高级中文教程
+site_description: 最全面的 Claude Code 中文学习指南，深挖未公开功能，提升开发效率60-80%
+site_author: cfrs2005
+site_url: https://claude-code.80aj.com
+
+repo_name: cfrs2005/claude-guild-chinese
+repo_url: https://github.com/cfrs2005/claude-guild-chinese
+
+nav:
+  - 首页: index.md
+  - 课程指南: 'COURSE-GUIDE.md'
+  - 第一章 核心概念和导航: '01-核心概念和导航.md'
+  - 第二章 斜杠命令和集成系统: '02-斜杠命令和集成系统.md'
+  - 第三章 开发工作流和最佳实践: '03-开发工作流和最佳实践.md'
+  - 第四章 Meta-Todo智能任务系统: '04-Meta-Todo智能任务系统.md'
+  - 第五章 高级协同实现: '05-高级协同实现.md'
+  - 第六章 快速参考和核心概念: '06-快速参考和核心概念.md'
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: 切换到暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到亮色模式
+
+plugins:
+  - search:
+      lang: zh
+  - git-revision-date-localized:
+      type: date
+      timezone: Asia/Shanghai
+      locale: zh
+      fallback_to_build_date: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite:
+      guess_lang: false
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: cfrs2005
+      repo: claude-guild-chinese
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cfrs2005/claude-guild-chinese
+    - icon: fontawesome/solid/globe
+      link: https://claude-code.80aj.com
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
