@@ -1,10 +1,11 @@
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: just-the-docs/just-the-docs@v0.8.2
 title: Claude Code 高级中文教程
 description: 最全面的 Claude Code 中文学习指南，深挖未公开功能，提升开发效率60-80%
 author: cfrs2005
-github:
-  repository_url: https://github.com/cfrs2005/claude-guild-chinese
-  is_project_page: true
+
+# Just the Docs 配置
+url: "https://claude-code.80aj.com"
+baseurl: ""
 
 # 插件
 plugins:
@@ -12,31 +13,28 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# 导航
-header_pages:
-  - index.md
-  - COURSE-GUIDE.md
-  - 01-核心概念和导航.md
-  - 02-斜杠命令和集成系统.md
-  - 03-开发工作流和最佳实践.md
-  - 04-Meta-Todo智能任务系统.md
-  - 05-高级协同实现.md
-  - 06-快速参考和核心概念.md
+# 搜索配置
+search:
+  enabled: true
+  placeholder: "搜索文档..."
 
-# 样式设置
-show_downloads: false
-google_analytics: G-XXXXXXXXXX
+# 导航配置
+nav_sorting: case_sensitive
+heading_anchors: true
 
-# 语言设置
-lang: zh-CN
+# 颜色主题
+color_scheme: light
 
-# 日期格式
-date_format: "%Y-%m-%d"
+# Aux links
+aux_links:
+  "GitHub 仓库": "https://github.com/cfrs2005/claude-guild-chinese"
+
+# 按钮
+aux_links_new_tab: true
 
 # 社交链接
 social_links:
   github: cfrs2005
-  custom:
-    - name: Website
-      url: https://claude-code.80aj.com
-      icon: fas fa-globe
+
+# 语言设置
+lang: zh-CN
