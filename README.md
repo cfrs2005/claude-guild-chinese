@@ -32,7 +32,7 @@
 ## 📚 学习导航
 
 ### 🎯 快速开始
-1. **[COURSE-GUIDE.md](./COURSE-GUIDE.md)** - 完整学习路径和方法  
+1. **[01-快速上手.md](./01-快速上手.md)** - 核心概念和基础操作  
 2. **[01-核心概念和导航.md](./01-核心概念和导航.md)** - 从这里开始你的学习之旅
 
 ### 📖 完整课程结构
@@ -127,4 +127,4 @@ cd claude-guild-chinese
 
 **开始你的 Claude Code 高级开发之旅吧！** 🚀
 
-[立即开始学习 →](./COURSE-GUIDE.md) | [快速参考 →](./06-快速参考和核心概念.md) | [提出问题 →](https://github.com/cfrs2005/claude-guild-chinese/issues)
+[立即开始学习 →](./01-快速上手.md) | [快速参考 →](./06-快速参考和核心概念.md) | [提出问题 →](https://github.com/cfrs2005/claude-guild-chinese/issues)
