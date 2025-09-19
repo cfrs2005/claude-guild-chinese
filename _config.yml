@@ -28,6 +28,7 @@ color_scheme: light
 # Aux links
 aux_links:
   "GitHub 仓库": "https://github.com/cfrs2005/claude-guild-chinese"
+  "在线文档": "https://claude-code.80aj.com"
 
 # 按钮
 aux_links_new_tab: true
@@ -38,3 +39,17 @@ social_links:
 
 # 语言设置
 lang: zh-CN
+
+# 排除文件
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .specstory/
