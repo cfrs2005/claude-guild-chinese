@@ -28,11 +28,6 @@ search:
 nav_sorting: case_sensitive
 heading_anchors: true
 
-# 启用目录
-nav_external_links:
-  - title: GitHub 仓库
-    url: https://github.com/cfrs2005/claude-guild-chinese
-
 # 颜色主题
 color_scheme: light
 
