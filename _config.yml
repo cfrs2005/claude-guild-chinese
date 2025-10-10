@@ -95,4 +95,12 @@ exclude:
   - vendor/ruby/
   - .specstory/
   - README.md
-  - LICENSE# Last updated: 2025年 9月20日 星期六 00时36分14秒 CST
+  - LICENSE
+
+# Collections (用于组织周刊等内容)
+collections:
+  weekly:
+    output: true
+    permalink: /weekly/:name/
+
+# Last updated: 2025年10月10日

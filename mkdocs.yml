@@ -14,6 +14,8 @@ nav:
   - 第四章 智能任务: '04-Meta-Todo智能任务系统.md'
   - 第五章 协同架构: '05-高级协同实现.md'
   - 第六章 命令参考: '06-快速参考和核心概念.md'
+  - 📰 Claude Code 周刊: 'weekly/index.md'
+  - 附录 相关项目推荐: '相关项目推荐.md'
 
 theme:
   name: material

@@ -37,6 +37,11 @@ nav_order: 1
 | **专家** | [协同架构](05-协同架构.html) | 高级集成、REPL 模式、多工具协同 | 90 分钟 |
 | **查询** | [命令参考](06-命令参考.html) | 快速查询、故障排除、配置指南 | 随时查阅 |
 
+## 📰 动态内容
+
+- **[Claude Code 周刊](weekly/index.html)** - 每周五更新，追踪最新特性、分享实战技巧、深度技术点评
+  - 最新: [2025年第41周](weekly/2025-W41.html) - Sonnet 4.5 升级 + X平台挖掘的5个社区项目点评
+
 ## 📋 项目信息
 
 - **原始文档**: [Cranot/claude-code-guide](https://github.com/Cranot/claude-code-guide)
