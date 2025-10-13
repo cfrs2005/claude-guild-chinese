@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 title: Claude Code 周刊 # the main title
 
-tagline: 最全面的 Claude Code 中文学习指南 | 深挖未公开功能，提升开发效率 60-80%
+tagline: Claude Code 中文指南 | 实战技巧与深度解析
 
 description: >- # used by seo meta and the atom feed
   最全面的 Claude Code 中文学习指南，以周刊形式追踪官方最新特性、分享实战经验和深度技术点评。
@@ -95,7 +95,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "/assets/logo/claude-code-logo.svg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

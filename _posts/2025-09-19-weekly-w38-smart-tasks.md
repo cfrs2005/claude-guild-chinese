@@ -1,4 +1,6 @@
 ---
+layout: post
+title: "2025年09月19日 - 第四章 智能任务"
 date: 2025-09-19 12:00:00 +0800
 categories: [周刊]
 tags: [智能任务, Meta-Todo, 任务编排, 项目管理]
