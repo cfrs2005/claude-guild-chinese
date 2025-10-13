@@ -28,9 +28,7 @@ jobs:
           bundler-cache: true
 
       - name: Build with Jekyll
-        run: |
-          bundle install
-          bundle exec jekyll build
+        run: bundle exec jekyll build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
