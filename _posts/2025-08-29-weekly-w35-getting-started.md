@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "📘 第1章：快速上手 - Claude Code 核心概念与基础操作"
+title: "📘 第1章：快速上手"
 date: 2025-08-29 12:00:00 +0800
-categories: [周刊]
+categories: [教程]
 tags: [入门, 核心概念, 工作流程]
 ---
 

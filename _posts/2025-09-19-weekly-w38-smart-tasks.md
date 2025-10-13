@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "📘 第4章：智能任务 - Meta-Todo 系统与任务编排"
+title: "📘 第4章：智能任务"
 date: 2025-09-19 12:00:00 +0800
-categories: [周刊]
+categories: [教程]
 tags: [智能任务, Meta-Todo, 任务编排, 项目管理]
 ---
 

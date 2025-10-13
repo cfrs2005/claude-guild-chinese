@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "📘 第5章：协同架构 - 高级集成与多工具协同"
+title: "📘 第5章：协同架构"
 date: 2025-09-26 12:00:00 +0800
-categories: [周刊]
+categories: [教程]
 tags: [协同架构, 高级集成, REPL模式, 多工具协同]
 ---
 

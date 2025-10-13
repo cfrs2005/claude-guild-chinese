@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "📘 第2章：命令系统 - 掌握 Claude Code 自动化能力"
+title: "📘 第2章：命令系统"
 date: 2025-09-05 12:00:00 +0800
-categories: [周刊]
+categories: [教程]
 tags: [命令系统, 斜杠命令, 钩子系统, MCP]
 ---
 
