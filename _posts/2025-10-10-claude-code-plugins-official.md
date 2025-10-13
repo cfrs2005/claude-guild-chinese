@@ -1,10 +1,9 @@
 ---
+title: "🎉 官方发布：Claude Code 插件系统正式上线"
 date: 2025-10-10 10:00:00 +0800
 categories: [官方摘录]
 tags: [插件系统, slash命令, 代理, MCP服务器, 钩子, 官方发布]
 ---
-
-# 🎉 官方发布：Claude Code 插件系统正式上线
 
 > **发布日期**: 2025年10月9日
 > **来源**: [Anthropic 官方博客](https://www.anthropic.com/news/claude-code-plugins)
