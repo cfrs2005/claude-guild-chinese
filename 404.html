@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>页面未找到 - Claude Code 周刊</title>
+    <link rel="stylesheet" href="/assets/css/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-header">
+        <h1>Claude Code 周刊</h1>
+        <p>最全面的 Claude Code 中文学习指南</p>
+    </div>
+
+    <div class="error-container">
+        <div class="error-icon">🚫</div>
+        <h1 class="error-title">页面未找到</h1>
+
+        <p>抱歉，您访问的页面不存在。</p>
+
+        <div class="suggestions">
+            <h3>💡 您可以尝试：</h3>
+            <ul>
+                <li>🔍 返回首页继续浏览</li>
+                <li>📚 查看期刊归档寻找相关内容</li>
+                <li>ℹ️ 了解本项目更多信息</li>
+                <li>🔍 使用搜索功能查找您需要的内容</li>
+            </ul>
+        </div>
+
+        <div class="mt-4">
+            <a href="/" class="back-link">🏠 返回首页</a>
+            <a href="/categories/" class="back-link">📚 期刊归档</a>
+            <a href="/about/" class="back-link">ℹ️ 关于项目</a>
+        </div>
+    </div>
+
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', sans-serif;
+            line-height: 1.8;
+            color: #2d3748;
+            background: #f8fafc;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .page-header {
+            background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .page-header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .page-header p {
+            font-size: 1.1rem;
+            margin: 0.5rem 0 0 0;
+            opacity: 0.9;
+        }
+
+        .error-container {
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 3rem 2rem;
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(124, 58, 237, 0.1), 0 2px 4px -1px rgba(124, 58, 237, 0.06);
+            text-align: center;
+            flex: 1;
+        }
+
+        .error-icon {
+            font-size: 4rem;
+            color: #7c3aed;
+            margin-bottom: 1rem;
+        }
+
+        .error-title {
+            color: #1a202c;
+            font-family: 'Noto Sans SC', sans-serif;
+            font-weight: 700;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .suggestions {
+            background: #f5f3ff;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin: 1.5rem 0;
+            text-align: left;
+        }
+
+        .suggestions h3 {
+            color: #7c3aed;
+            margin-top: 0;
+            font-family: 'Noto Sans SC', sans-serif;
+            font-size: 1.2rem;
+        }
+
+        .suggestions ul {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0 0 0;
+        }
+
+        .suggestions li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .suggestions li:last-child {
+            border-bottom: none;
+        }
+
+        .back-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            margin: 0.5rem;
+            box-shadow: 0 1px 2px 0 rgba(124, 58, 237, 0.05);
+        }
+
+        .back-link:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 6px -1px rgba(124, 58, 237, 0.1), 0 2px 4px -1px rgba(124, 58, 237, 0.06);
+            text-decoration: none;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .error-container {
+                margin: 1rem;
+                padding: 2rem 1.5rem;
+            }
+
+            .error-title {
+                font-size: 1.5rem;
+            }
+
+            .page-header {
+                padding: 1.5rem 1rem;
+            }
+
+            .page-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</body>
+</html>
