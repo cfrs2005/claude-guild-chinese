@@ -212,6 +212,11 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
+  - backup
+  - "backup_*"
+  - ".playwright-mcp"
+  - ".specstory"
+  - "CLAUDE.md"
 
 jekyll-archives:
   enabled: [categories, tags]
