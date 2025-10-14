@@ -1,0 +1,28 @@
+---
+---
+
+/* Claude Code 周刊 - 紫色链接样式 */
+
+/* 修改所有链接的颜色为紫色 */
+a {
+  color: #7c3aed !important;
+  &:hover {
+    color: #6d28d9 !important;
+  }
+}
+
+/* 确保所有链接相关元素都是紫色 */
+.link-color,
+.text-primary,
+a.text-primary:hover,
+a.text-primary:focus,
+.btn-link,
+.btn-link:hover {
+  color: #7c3aed !important;
+}
+
+/* Bootstrap 变量覆盖 */
+:root {
+  --bs-link-color: #7c3aed !important;
+  --bs-link-hover-color: #6d28d9 !important;
+}
