@@ -25,3 +25,21 @@ package-lock.json
 # Misc
 _sass/vendors
 assets/js/dist
+
+# Backup directories and files
+backup/
+backup_posts_safe/
+backup_*/
+*.bak
+*~
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Unnecessary config files
+404.md
+*.config.js
+purgecss.js
