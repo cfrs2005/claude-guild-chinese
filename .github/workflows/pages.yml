@@ -30,6 +30,30 @@ jobs:
       - name: Build with Jekyll
         run: bundle exec jekyll build
 
+      - name: Modify CSS for purple links
+        run: |
+          # 在生成的CSS文件中添加紫色链接样式
+          CSS_FILE="_site/assets/css/jekyll-theme-chirpy.css"
+          if [ -f "$CSS_FILE" ]; then
+            # 在CSS文件末尾添加紫色链接样式
+            echo "
+/* Claude Code 周刊 - 紫色链接样式 */
+:root {
+  --link-color: #7c3aed !important;
+}
+
+a:not(.btn):not(.tag):not(.img-link) {
+  color: #7c3aed !important;
+}
+
+a:not(.btn):not(.tag):not(.img-link):hover {
+  color: #6d28d9 !important;
+}" >> "$CSS_FILE"
+            echo "紫色链接样式已添加到 $CSS_FILE"
+          else
+            echo "CSS文件不存在: $CSS_FILE"
+          fi
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
