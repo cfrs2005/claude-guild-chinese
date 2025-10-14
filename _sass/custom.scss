@@ -1,8 +1,11 @@
 /* Claude Code 周刊 - 紫色链接样式 */
-a {
-  color: #7c3aed !important;
+
+/* 覆盖Chirpy主题的链接颜色 */
+:root {
+  --link-color: #7c3aed !important;
 }
 
+/* 确保hover状态也使用紫色 */
 a:hover {
   color: #6d28d9 !important;
 }
