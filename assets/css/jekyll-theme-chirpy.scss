@@ -1,6 +1,9 @@
 ---
 ---
 
+/* 导入Chirpy主题的原始样式 */
+@import "jekyll-theme-chirpy";
+
 /* Claude Code 周刊 - 紫色链接样式 */
 :root {
   --link-color: #7c3aed !important;
