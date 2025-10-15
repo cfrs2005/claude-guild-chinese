@@ -1,0 +1,56 @@
+<!-- 自定义 head 内容 - 添加赞助推荐到侧边栏 -->
+<script>
+  // 在页面加载后插入赞助卡片到侧边栏
+  document.addEventListener('DOMContentLoaded', function() {
+    // 查找侧边栏底部的社交链接容器
+    const sidebar = document.querySelector('#sidebar .sidebar-bottom');
+
+    if (sidebar) {
+      // 创建赞助卡片
+      const sponsorCard = document.createElement('div');
+      sponsorCard.className = 'sponsor-card';
+      sponsorCard.style.cssText = `
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 12px;
+        padding: 16px;
+        margin-top: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      `;
+
+      sponsorCard.innerHTML = `
+        <h4 style="color: #fff; font-size: 16px; margin-bottom: 10px; font-weight: 600;">
+          🤖 推荐：智谱 AI
+        </h4>
+        <p style="color: #fff; font-size: 13px; margin-bottom: 12px; line-height: 1.5;">
+          <strong>国内可用的 Claude 级代码能力！</strong>
+        </p>
+        <ul style="color: #fff; font-size: 12px; line-height: 1.6; margin-bottom: 12px; padding-left: 18px;">
+          <li>✅ 免费 <strong>2000万 Tokens</strong></li>
+          <li>✅ 国内直接访问</li>
+          <li>✅ 接近 Claude 水平</li>
+        </ul>
+        <a href="https://www.bigmodel.cn/claude-code?ic=H0RNPV3LNZ"
+           target="_blank"
+           rel="noopener noreferrer"
+           style="display: inline-block; background: #fff; color: #667eea; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 13px; transition: transform 0.2s;">
+          👉 领取免费额度
+        </a>
+        <p style="color: rgba(255, 255, 255, 0.8); font-size: 10px; margin-top: 10px; margin-bottom: 0;">
+          使用邀请码支持本项目 💝
+        </p>
+      `;
+
+      // 插入到侧边栏底部
+      sidebar.appendChild(sponsorCard);
+
+      // 添加 hover 效果
+      const link = sponsorCard.querySelector('a');
+      link.addEventListener('mouseenter', () => {
+        link.style.transform = 'scale(1.05)';
+      });
+      link.addEventListener('mouseleave', () => {
+        link.style.transform = 'scale(1)';
+      });
+    }
+  });
+</script>
